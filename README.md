@@ -67,9 +67,9 @@ UsuallyUsedCommand
 
 *  a tomcat, 
     ```bash
-    # host port 8071 reflect container 8080 , 
+    # host port 7022 reflect container 8080 , 
     # --restart=always   means always start when server start
     # -v means set a volume 
     # b8df790a5ce7 is images id
-    docker run -d -p 8071:8080 --restart=always --name tomcat8.5.39 -v /media/disk1/Docker/tomcat8.5.39/webapps:/usr/local/apache-tomcat-8.5.39/webapps b8df790a5ce7
+    docker run -d -p 7022:8080 --restart=always --name tomcat8.5.39 -v /media/disk1/tomcat8.5.39/webapps:/usr/local/apache-tomcat-8.5.39/webapps b8df790a5ce7
     ```
